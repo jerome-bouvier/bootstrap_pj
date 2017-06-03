@@ -45,6 +45,11 @@ section .heading h2 {
     width:100px;
 }
 
+ul,ol
+{
+list-style:none;
+}
+
 /* ABOUT */
 
 #about {
@@ -219,4 +224,51 @@ section .heading h2 {
 
 .timeline-heading h4 {
     color: #d82c2e;
+}
+
+/* Education */
+
+#education {
+    background: #fff;
+}
+
+#education .heading h2 {
+    color:#d82c2e;
+}
+
+.education-block {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    background: #ddd;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.eduction-block h5 {
+    color: #888;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.eduction-block i {
+    font-size: 40px;
+}
+
+.eduction-block h3 {
+    color: #d82c2e;
+}
+
+.eduction-block h4 {
+    margin-bottom: 20px;
+}
+
+.eduction-block p {
+    font-weight: bold;
+}
+
+.eduction-block .red-divider {
+    margin-bottom: 20px;
 }
